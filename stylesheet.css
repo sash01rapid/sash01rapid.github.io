@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    margin: 0;
+    font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+    background-color: #339dc1; 
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-size: 13px;
+    letter-spacing: 3px;
+}
+
+.clear {
+    clear: left;
+}
+
+.contain {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.title {
+    display: inline-block;
+    padding: 8px 15px;
+    padding-right: 7px;
+    letter-spacing: 8px;
+    font-size: 30px;
+    color: #339dc1;
+    font-weight: bold;
+    background-color: #53433e;
+    border-radius: 0 0 8px 8px;
+}
+
+.catch {
+    display: inline-block;
+    padding: 8px 15px;
+    padding-right: 7px;
+    letter-spacing: 8px;
+    font-size: 30px;
+    color: #53433e;
+    font-weight: normal;
+}
+
+.about {
+    margin-top: 60px;
+    background-color: #53433e;
+    padding: 60px 0;
+}
+
+
+
+
+.subtitle {
+    padding: 4px 8px;
+    padding-right: 3px;
+    letter-spacing: 5px;
+    font-size: 20px;
+    color: #339dc1;
+    font-weight: bold;
+    background-color: #53433e;
+    display: inline-block;
+}
+
+.about .subtitle {
+    float: left;
+}
+
+.text {
+    padding: 0 8px;
+    padding-right: 15px;
+    
+}
+
+.about .text {
+    width: 70%;
+}
+
+.about img {
+    width: 30%;
+    border-radius: 5px;
+    float: right;
+}
+
+.name {
+    font-size: 30px;
+    color: #339dc1;
+    font-weight: bold;
+    letter-spacing: 10px;
+}
+
+.nameen {
+    font-size: 18px;
+    color: #339dc1;
+    letter-spacing: 4px;
+    font-weight: normal;
+    padding-left: 10px;
+}
+
+.about p {
+    color: #339dc1;
+}
+
+.career {
+    padding: 60px 0;
+}
+
+.career p {
+    text-align: center;
+    color: #53433e;
+}
+
+.career .subtitle {
+    padding: 4px 8px;
+    padding-right: 3px;
+    letter-spacing: 5px;
+    font-size: 20px;
+    color: #53433e;
+    font-weight: bold;
+    background-color: #339dc1;
+    display: inline-block;
+}
+
+.skils {
+    display: inline-block;
+    width: 100%;
+}
+
+.skil {
+    margin: 10px 0;
+    padding : 3px 5px;
+    padding-right: 2px;   
+    display: inline-block;
+    font-size: 13px;
+    letter-spacing: 3px;
+    border: 2px solid #339dc1;
+    border-radius: 5px;
+    color: #339dc1;
+}
+
+.sns {
+    margin-top: 60px;
+    background-color: #53433e;
+    padding: 60px 0;
+}
+
+.snsi {
+    float: left;
+    width: 50%;
+    padding: 20px;
+}
+
+.snsim {
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+    transition: .3s
+}
+
+.snsim:hover {
+    opacity: 0.5;
+}
+
+
+@media(max-width: 1000px){
+    .about img {
+        clear: right;
+    }
+}
